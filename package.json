@@ -1,40 +1,43 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
-  },
-  "dependencies": {
-    "@bit/marian.maid-marian.check-box": "^1.0.18",
-    "@eva-design/eva": "^2.0.0",
-    "@expo/webpack-config": "^0.12.60",
-    "@ui-kitten/components": "^5.0.0",
-    "@ui-kitten/eva-icons": "^5.0.0",
-    "expo": "~40.0.0",
-    "expo-status-bar": "~1.0.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
-    "react-native-svg": "^9.13.6",
-    "react-native-svg-web": "^1.0.9",
-    "react-native-web": "~0.13.12"
-  },
-  "devDependencies": {
-    "@babel/core": "~7.9.0",
-    "@types/react": "~16.9.35",
-    "@types/react-dom": "~16.9.8",
-    "@types/react-native": "~0.63.2",
-    "typescript": "~4.0.0"
-  },
-  "private": true,
-  "bit": {
-    "env": {
-      "compiler": "marian.maid-marian/webpack-compiler@1.0.53"
+    "name": "@mregan59/rn-boilerplate",
+    "version": "1.0.0",
+    "description": "testing npm publish",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "web": "expo start --web",
+        "eject": "expo eject"
     },
-    "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
-  }
+    "dependencies": {
+        "@bit/marian.maid-marian.check-box": "^1.0.18",
+        "@eva-design/eva": "^2.0.0",
+        "@expo/webpack-config": "^0.12.60",
+        "@ui-kitten/components": "^5.0.0",
+        "@ui-kitten/eva-icons": "^5.0.0",
+        "expo": "~40.0.0",
+        "expo-status-bar": "~1.0.3",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+        "react-native-svg": "^9.13.6",
+        "react-native-svg-web": "^1.0.9",
+        "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+        "@babel/core": "~7.9.0",
+        "@types/react": "~16.9.35",
+        "@types/react-dom": "~16.9.8",
+        "@types/react-native": "~0.63.2",
+        "typescript": "~4.0.0"
+    },
+    "private": false,
+    "bit": {
+        "env": {
+            "compiler": "marian.maid-marian/webpack-compiler@1.0.53"
+        },
+        "componentsDefaultDirectory": "components/{name}",
+        "packageManager": "npm"
+    }
 }
